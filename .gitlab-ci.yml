@@ -1,0 +1,12 @@
+build:
+  tags:
+    - windows
+
+  script: "powershell -ExecutionPolicy Unrestricted .\\tools\\build.ps1"
+
+  variables:
+    URL_BASE: "https://www.ipvs.uni-stuttgart.de/files/pas/src"
+
+  artifacts:
+    paths:
+      - dbus-*-cp*.zip

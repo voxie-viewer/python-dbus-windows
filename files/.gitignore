@@ -1,0 +1,9 @@
+/tmp
+
+*.zip
+*.dll
+*.xz
+*.gz
+*.whl
+*.exe
+*.msi
